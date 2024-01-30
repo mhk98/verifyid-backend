@@ -34,7 +34,7 @@ exports.signup = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       status: "fail",
-      message: "Username or password is not curret",
+      message: "Something went wrong",
       error: error.message,
     });
   }
