@@ -20,11 +20,9 @@ module.exports = (sequelize, DataTypes, Sequelize) => {
     },
     Email: {
       type: DataTypes.STRING,
-      unique: true,
     },
     Contact: {
       type: DataTypes.STRING,
-      unique: true,
     },
     Status: {
       type: DataTypes.STRING,
