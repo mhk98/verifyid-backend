@@ -222,7 +222,6 @@ exports.login = async (req, res) => {
     }
 
     const accessToken = generateToken(user);
-    // const refreshToken = generateToken(user);
 
     //set refresh token into cookie
     const cookieOptions = {
